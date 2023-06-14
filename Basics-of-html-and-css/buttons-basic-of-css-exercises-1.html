@@ -9,9 +9,15 @@
     margin-right: 240px;
     margin-bottom: 33px;;
     cursor:pointer;
+
+    transition: opacity 0.15s;
   }
 
-  .add-btn {
+  .request-btn:hover {
+    opacity: 0.8;
+  }
+
+  .amazon-button {
     background: rgba(255, 216, 20);
     color: rgb(42, 41, 41);
     font-size: 23px;
@@ -21,7 +27,12 @@
     border-style: none;
     cursor:pointer;
   }
-  .sign-up-btn {
+
+  .amazon-button:hover {
+    background-color: rgb(245, 205, 3);
+  }
+
+   .github-button{
     background-color: rgb(46, 164, 79);
     color: white;
     font-family: bold;
@@ -35,6 +46,12 @@
    
     margin-left: 240px;
     cursor:pointer;
+
+    transition: box-shadow 0.15s;
+  }
+
+  .github-button:hover {
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.15);
   }
 
   .get-started-btn {
@@ -51,7 +68,14 @@
      border:solid;
      border-radius: 7px;
      cursor:pointer;
+
+     transition: background-color 0.15s;
   }
+
+.get-started-btn:hover {
+  background-color: rgb(99, 66, 156);
+}
+
   .download-btn {
     background-color: white;
     color:rgb(108,117,125);
@@ -65,6 +89,14 @@
     border-style: solid;
     border-width:1px;
     cursor:pointer;
+
+    transition: background-color 0.15s,
+      color 0.15s;
+  }
+
+  .download-btn:hover {
+    background-color: rgb(108, 117, 125);
+    color: white;
   }
 
   .apply-btn {
@@ -81,6 +113,12 @@
     border-radius: 23px;
     margin-left: 55px;
     cursor:pointer;
+
+    transition: background-color 0.15s;
+  }
+
+  .apply-btn:hover {
+    background-color: rgb(2, 70, 138);
   }
 
   .save-btn{
@@ -97,9 +135,17 @@
     border-radius: 27px;
     border-width:2px;
     cursor:pointer;
-    margin-left: 13px;;
+    margin-left: 13px;
+
+    transition: background-color 0.15s,
+      border-width 0.15s;
   }
   
+  .save-btn:hover {
+    background-color: rgb(226, 240, 254);
+    border-width: 2px;
+  }
+
   .buttom-btns{
     margin-top: 50px;
   }
@@ -107,8 +153,8 @@
 </style>
 
 <button class="request-btn">Request now</button>
-<button class="add-btn">Add to Cart</button>
-<button class="sign-up-btn">Sign up</button>
+<button class="amazon-button">Add to Cart</button>
+<button class="github-button">Sign up</button>
 </br>
 <div class="buttom-btns">
 <button class="get-started-btn">Get started</button>
